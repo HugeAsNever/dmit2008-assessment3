@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 const PanelStyles = styled.div `
-    width: 80%;
+    width: calc(100% - 25rem);
     color: #546E7A;
-    padding: 0.5rem;
+    padding: 2rem;
     margin-top: 1rem;
     min-height: 50vh;
+    background-color: #e2e2e5;
+    margin-left:1rem;
+    margin-right:1rem;
 `;
 
 const PanelButton  = styled.button`
@@ -14,9 +17,15 @@ const PanelButton  = styled.button`
   font-size: 1.3rem;
 `;
 
-const PanelTitle = styled.h1 `
-    font-size: 2rem;
-    font-weight: bold;
+const PanelTitle = styled.div `
+
+    padding-left:1rem;
+    
+    h2{
+        font-size: 2.5rem;
+        font-weight: bold;
+    
+    }
     
 `;
 
@@ -31,7 +40,7 @@ const PanelBarItem = styled.li`
 `;
 
 const PanelBody = styled.div`
-    padding: 2rem 3rem;
+    margin: 2rem 3rem;
 `;
 
 

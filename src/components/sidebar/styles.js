@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 
 const SideBarStyles = styled.div `
-    width: 20%;
+    width: 25rem;
     color: #546E7A;
-    padding: 0.5rem;
+    padding: 3rem;
     margin-top: 1rem;
     border-right: 1px solid;
-    box-shadow:  1px 3px 2px 0 grey;
+    box-shadow:  5px 0 2px -2px grey;
 `;
 
 const SideBarTitle = styled.h1 `

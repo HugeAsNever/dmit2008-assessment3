@@ -4,7 +4,7 @@ import logo from './../../logo.png';
 const AppBarStyles   = styled.nav`
     box-shadow:  0 0 2px 1px grey;
     padding: 0.5rem 1rem;
-    max-height: 6rem;
+    height: 6rem;
     background-color: #E8EAF6;
      
 `;

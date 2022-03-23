@@ -1,6 +1,6 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
-import {AppBar} from './../components/appbar';
+import {AppBar} from 'components/appbar';
 function PageNotFound (props) {
     return(
         <>

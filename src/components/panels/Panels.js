@@ -9,8 +9,9 @@ function Panels (props) {
                 <PanelBarItem><PanelButton>Home</PanelButton> &gt; <PanelButton>Product</PanelButton></PanelBarItem>
                 <PanelBarItem><Button bgcolor="blue" color="white">Add Product</Button></PanelBarItem>
             </PanelBarItems>
+            <PanelTitle><h2>Product Listings</h2></PanelTitle>
             <PanelBody>
-                <PanelTitle>Product Listings</PanelTitle>
+                
 
                 
             </PanelBody>
