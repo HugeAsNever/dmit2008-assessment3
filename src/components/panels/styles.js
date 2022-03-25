@@ -5,7 +5,7 @@ const PanelStyles = styled.div `
     color: #546E7A;
     padding: 3rem;
     margin-top: 1rem;
-    min-height: 50vh;
+    min-height: 90vh;
     background-color: #e2e2e5;
     margin-left:1rem;
     margin-right:1rem;
