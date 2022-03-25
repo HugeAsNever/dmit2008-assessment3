@@ -9,6 +9,7 @@ const PanelStyles = styled.div `
     background-color: #e2e2e5;
     margin-left:1rem;
     margin-right:1rem;
+
     
 `;
 
