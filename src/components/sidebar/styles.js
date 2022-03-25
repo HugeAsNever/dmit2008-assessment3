@@ -23,11 +23,15 @@ const SideBarButton  = styled.button`
 
 const SideBarItems = styled.ul`
     align-items:center;
-    margin: 2rem 0;
+    margin: 2rem 1rem;
 `;
 
 const SideBarItem = styled.li`
-    margin: 0.5rem;
+    a {
+        font-size: 1.3rem;
+        margin-left: 0.4rem;
+        color: #546E7A;
+    }
 `;
 
 

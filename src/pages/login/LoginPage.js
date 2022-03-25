@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Link, useNavigate} from 'react-router-dom';
 import {Form, Button, Container, Row, Col} from 'react-bootstrap';
-import logo from 'logo.png';
+import welcome from 'welcome.jpg';
 
 //security
 import {auth} from 'libs/firebase';
@@ -81,8 +81,8 @@ function LoginPage  (props){
                     </Row>
                     
                 </Col>
-                <Col className='p-5 border border-light' style={ {backgroundColor: "#E3F2FD"} }>
-                    <img src={logo} className='img-fluid' alt='company logo' />
+                <Col className='border border-light' style={ {backgroundColor: "#ddd2cc"} }>
+                    <img src={welcome} className='img-fluid' alt='welcome' />
                 </Col>
             </Row>
             
