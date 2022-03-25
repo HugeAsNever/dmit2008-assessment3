@@ -1,4 +1,4 @@
-# DMIT2008 Assesment 2
+# DMIT2008 Assesment 3
 Ping Guan | HugeAsNever
 
 
@@ -12,23 +12,38 @@ This assesment includes three pages
 
 ## Login Page
 
-- Form components email, password and sign in button.
-- Sign in button links to dashboard page.
-- Front page is styled thematic to the product contents.
-- The Login page must be branded with the name of the company.
-- Form redirects to the DashboardPage.js
+    Form validation errors are handled using toast messages. Toast will
+    present firebase default error codes or custom error codes.
+    Firebase default user sign in redirect to dashboard.
+
+
 
 Using React bootstrap
 
 ## Dashboard Page
-- Dashboard has sidebar, appbar and panel components displayed.
-- App Bar - Logo, user icon settings icon 3 other icon choices.
-- Sidebar contains sign out link to return user to the LoginPage.js
-- Sidebar contains a minimum of six icon buttons for different sections of a
-dashboard. These are content only and do not have to work.
-Panel component simply needs a header Product Listings.
-- Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+### Nested
+
+        Requirements
+        Three nested routes.
+        View All Panel Route path all set as default route.
+        Add New Product Panel route path add
+        Edit Product Panel route path edit.
+
+## 404 Page
+
+    Implements authStateChange
+    Uses conditional rendering based user authentication.
+    Valid user returned to the dashboard page.
+    Invalid user returned to login page.
+    Custom styled page with branding/logo
+
+## Product Card
+
+    View all page provides and example of the Product card
+    Product card contains a placeholder image, product price and description..
+
+
 
 Using style component.
 
